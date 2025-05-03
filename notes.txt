@@ -5,4 +5,18 @@ model link: https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
 Steps to setup
 1. init for backend
 2. README.model 
-3. ~
+3. public -> temp -> .gitkeep
+4. .gitignore - > https://mrkandreev.name/snippets/gitignore-generator/#Node
+5. .env
+6. src folder with index.js, constants.js, app.js
+7. package.json -> 
+    - type
+    - nodemon dev dependecies (dev dependecies foes not go in production it is only for development) -> npm i -D nodemon
+    also to start we have to set a script for nodemon
+8. folders in src
+   - models
+   - controllers (functionalities)
+   - routes
+   - utils (repeated functionalities like taking toke, email, file uploading etc)
+   - db
+   - middlewares
