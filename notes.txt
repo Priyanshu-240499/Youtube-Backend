@@ -1,0 +1,8 @@
+Youtube backend
+
+model link: https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+
+Steps to setup
+1. init for backend
+2. README.model 
+3. ~
