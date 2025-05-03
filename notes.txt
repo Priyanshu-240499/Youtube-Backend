@@ -20,3 +20,7 @@ Steps to setup
    - utils (repeated functionalities like taking toke, email, file uploading etc)
    - db
    - middlewares
+9. In some cases we also install prettier although it is used more as dev dependecies
+10. prettier files -> 
+   - .prettierrc for basic settings
+   - .prettierignore for files which you do not want prettier to change 
