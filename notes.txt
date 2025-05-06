@@ -23,4 +23,17 @@ Steps to setup
 9. In some cases we also install prettier although it is used more as dev dependecies
 10. prettier files -> 
    - .prettierrc for basic settings
-   - .prettierignore for files which you do not want prettier to change 
+   - .prettierignore for files which you do not want prettier to change
+   
+
+   -----------------------------------------------------------------------------------
+
+Connecting Database
+1. Atlas -> MongoDB Atlas is a cloud-based database service provided by MongoDB. It allows you to host, manage, and scale MongoDB databases in the cloud.
+2. Steps -> 
+Sign in and make a new project 
+check network and data access
+go to clusters->connect and copy link->paste in env
+make database name in your project
+
+
