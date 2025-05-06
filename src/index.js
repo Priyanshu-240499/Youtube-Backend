@@ -40,10 +40,20 @@ const port= process.env.PORT || 8000
 
 import dotenv from 'dotenv';
 import db_connect from "./db/db.js";
-
+import app from "./app.js"
 dotenv.config({
     path:"./.env"
 });
-
+const port = process.env.PORT || 8000
 
 db_connect()
+.then(()=>{
+    app.listen( port,()=>{
+        console.log("Port is running on: ", port);
+        
+    })
+})
+.catch((error)=>{
+    console.log("Error in connection:", error);
+    
+})
