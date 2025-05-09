@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser" // to acess users browser cookies and p
 const app = express();
 const dataLimit = "20kb"
 app.use(cors({
-    origin:process.env.CORS_ORIGIN, //allowing from where our backend should be available
+    origin:process.env.CORS_ORIGIN, //allowing your url like request sould be from vercel or where it is deployed
     credentials: true
 }))
 
@@ -15,6 +15,6 @@ app.use(cors({
 app.use(express.json({limit:dataLimit}))
 app.use(express.urlencoded({extended:true, limit:dataLimit})) //to get data from url we have to configure url encoder
 app.use(express.static("public")) // to store some files or folder for public like pdf favicon images etc
-app.use(cookieParser())
+app.use(cookieParser()) //used to access and set cookies for user browser
 
 export default app;

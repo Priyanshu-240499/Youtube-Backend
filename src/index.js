@@ -48,6 +48,11 @@ const port = process.env.PORT || 8000
 
 db_connect()
 .then(()=>{
+
+    app.on("err",(err)=>{
+        console.log("ERR in try: ", err);
+        
+    })
     app.listen( port,()=>{
         console.log("Port is running on: ", port);
         

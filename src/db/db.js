@@ -6,7 +6,7 @@ const db_connect = async ()=>{
       const connectionInstance =  await mongoose.connect(`${process.env.DB_URL}/${DB_Name}`);
       
       console.log(`\n connection successfull !!!`);
-    //   await console.log(connectionInstance);
+      await console.log(connectionInstance.connection.host);
       
       
       

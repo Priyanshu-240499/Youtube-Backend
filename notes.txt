@@ -26,7 +26,7 @@ Steps to setup
    - .prettierignore for files which you do not want prettier to change
    
 
-   -----------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------- connecting db
 
 Connecting database in MERN with debugging
 
@@ -77,6 +77,13 @@ function hello() {
 }
 hello();
 
- -----------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------DAY-8 API response and error handling
 
-
+- After calling db-connect, we also have to start our express 
+- in app.js we will set up configurations for express
+- we use app.use for middlewares or configuration settings
+- installing cors (url) and cookie parser
+- configuring json limit, urlencoder, static, cookie parser
+- Making a wrapper in async handler so that we can directly talk to our db, by making a higher order function
+- Standardizing error and res that we send in API APIRESPONSE.js & APIerror.js
+- 
