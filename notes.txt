@@ -86,4 +86,12 @@ hello();
 - configuring json limit, urlencoder, static, cookie parser
 - Making a wrapper in async handler so that we can directly talk to our db, by making a higher order function
 - Standardizing error and res that we send in API APIRESPONSE.js & APIerror.js
-- 
+
+---------------------------------------------------------------------------------------------Day 9 Modelling 
+
+Link : https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+
+mongoose-aggregate-paginate-v2-> (it is a plugin) mongoose.aggregation pipeline in monggose helps in writing complex db queries
+bcrypt-> used for hashing password
+JWT (json web token)-> 
+making methods for user (hashing password, ispassword correct, accesstoken and refresh token generation)
