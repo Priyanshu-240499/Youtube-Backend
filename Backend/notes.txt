@@ -138,3 +138,10 @@ making methods for user (hashing password, ispassword correct, accesstoken and r
 ------------------------------------------------------------------------------------------------ routes
 - making registerUser in controllers
 - Making our route in app.js
+- Making our route in routes
+
+app --> user router --> user controllers
+
+postman
+
+------------------------------------------------------------------------------------------------ building user logic
