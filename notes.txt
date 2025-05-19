@@ -95,3 +95,46 @@ mongoose-aggregate-paginate-v2-> (it is a plugin) mongoose.aggregation pipeline 
 bcrypt-> used for hashing password
 JWT (json web token)-> 
 making methods for user (hashing password, ispassword correct, accesstoken and refresh token generation)
+
+
+------------------------------------------------------------------------------------------------multer for file uploading
+- installing cloudinary and multer
+- setting up cloudinary & multer from docs
+
+------------------------------------------------------------------------------------------------ HTTP (hyper text transfer protocol)
+- used for tranfer of text between client and server
+- url, uri, urn 
+- http headers 
+  - request -> from client
+  - response -> from server
+  - representation -> encoding/compression //if data is in zip format or any other where you need to extract data 
+  - payload -> data (fancy name of data like id or email etc)
+
+  Most common headers:
+  Accept: application/json
+  user: Agent (from where request is send like postman or browser, which browser) ex: lets suppose user is website on laptop, so we can check and send notification to visit app instead
+  Authorization: sending tokens
+  contetnt type  (images, pdfs etc)
+  cookie : how much time user should login
+  cache - control
+
+  Their are some cors and security headers as well which basically depend on company to company 
+
+  How to stop webscrapping from your website ???????????????????????????????????????????????????????????????????????????????
+
+
+  HTTP methods:
+  GET
+  PUT 
+  POST : If I want to completely replace a resource
+  PATCH : If yoou want to change a a particular data in the resource
+  HEAD : No message body 
+  OPTION : What operations are available
+  TRACE : loopback test (get same data)
+  DELETE 
+  
+  Status code: See image folder
+
+------------------------------------------------------------------------------------------------ routes
+- making registerUser in controllers
+- Making our route in app.js

@@ -7,6 +7,8 @@ class ApiError extends Error{
         this.data=null;
         this.success=false;
    }
+
+   // Not implemented stack check 
 }
 
 export {ApiError}

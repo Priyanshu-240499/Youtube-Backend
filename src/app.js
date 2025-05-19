@@ -17,4 +17,18 @@ app.use(express.urlencoded({extended:true, limit:dataLimit})) //to get data from
 app.use(express.static("public")) // to store some files or folder for public like pdf favicon images etc
 app.use(cookieParser()) //used to access and set cookies for user browser
 
+
+
+// --------------------------------------------------------------------------------------------------------------------
+
+// routes
+import userRouter from "./routes/user.routes.js"
+
+// routes declaration
+app.use("/api/v1/users", userRouter) // this will be used to access the user routes
+
+
+
+
+
 export default app;
