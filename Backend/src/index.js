@@ -53,6 +53,9 @@ db_connect()
         console.log("ERR in try: ", err);
         
     })
+    // app.get("/api/check",(req,res)=>{
+    //     res.send(true)
+    // })
     app.listen( port,()=>{
         console.log("Port is running on: ", port);
         

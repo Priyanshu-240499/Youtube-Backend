@@ -1,4 +1,4 @@
-class ApiSuccess extends Error{
+class ApiResponse extends Error{
     constructor(statusCode, message, errors=[]){
          this.statusCode=statusCode;
          this.message="success";
@@ -7,4 +7,4 @@ class ApiSuccess extends Error{
     }
  }
  
- export {ApiSuccess}
+ export {ApiResponse}
