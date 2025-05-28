@@ -4,10 +4,7 @@ import cookieParser from "cookie-parser" // to acess users browser cookies and p
 
 const app = express();
 const dataLimit = "20kb"
-app.use(cors({
-    origin:process.env.CORS_ORIGIN, //allowing your url like request sould be from vercel or where it is deployed
-    credentials: true
-}))
+app.use(cors())
 
 // express configurations
 // app.use(middlewareFunction); to set middleware
